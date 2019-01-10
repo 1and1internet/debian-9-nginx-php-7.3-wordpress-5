@@ -1,2 +1,1 @@
-# debian-9-nginx-php-7.2-wordpress-4
-.
+# debian-9-nginx-php-7.3-wordpress-5
