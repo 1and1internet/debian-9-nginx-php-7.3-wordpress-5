@@ -24,7 +24,7 @@ class Test1and1Image(Test1and1Common):
     def test_application(self):
         time.sleep(5)
         driver = self.getChromeDriver()
-        driver.get("http://%s:8080/" % (Test1and1Image.container_ip))
+        driver.get("%s" % (Test1and1Common.endpoint))
         self.assertTrue(
             driver.title.find('WordPress') > -1,
             msg="Failed to find installation page"
